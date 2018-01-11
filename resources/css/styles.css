@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+.letter-page {
+  width: 612px;
+  height: 792px;
+  border: 1px solid gray;
+}
+header {
+  height: 121px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header img {
+  display: inline-block;
+  height: 65px;
+  margin-left: 61px;
+}
+.header-text {
+  font-weight: bold;
+  color: #8B84D7;
+  font-size: 14px;
+  display: inline-block;
+  width: 238px;
+  margin-right: 67px;
+  margin-top: 17px;
+}
+
+/* Purple Box */
+
+.purple-box {
+  height: 412px;
+  width: 100%;
+  background-color: #8B84D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.purple-content {
+  height: 376px;
+  width: 492px;
+  border-top: 6px dotted #8BD3E6;
+  border-bottom: 6px dotted #8BD3E6;
+  display: flex;
+  align-items: center;
+}
+.purple-text {
+  color: white;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+li {
+  margin-top: 4px;
+  color: #8BD3E6;
+}
+li span {
+  color: white;
+}
+.table-row {
+  display: flex;
+  flex-direction: row;
+  height: 12.9px;
+}
+.table-row .left-align {
+  text-align: left;
+  width: 85%;
+  display: inline-block;
+}
+.table-row .centered-text {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+}
+.table-row.header {
+  margin: 20px 0 5px 0;
+}
+.table-row.white {
+  background-color: white;
+  border-bottom: 1px solid #8B84D7;
+  color: #605D75;
+  padding: 3px 0 0 11px;
+  font-weight: bold;
+  font-size: 10px;
+}
+p.small {
+  font-size: 9px;
+  line-height: 10px;
+  margin: 5px 0 0 0;
+}
+
+/* ISI */
+
+.isi-text {
+  width: 492px;
+  margin: 17px auto;
+}
+h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #8B84D7;
+  margin: 8px 0 3px 0;
+}
+h4 {
+  font-size: 10px;
+  color: #8B84D7;
+  margin: 1px 0 0 0;
+}
+p.isi {
+  font-size: 9px;
+  line-height: 11px;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+p.prescribing-information {
+  font-size: 11px;
+  color: #605D75;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  margin: 0 auto;
+  width: 492px;
+  display: flex;
+  justify-content: space-between;
+}
+.endmatter {
+  width: 400px;
+}
+.endmatter span {
+  margin-right: 30px;
+  font-size: 6px;
+  display: inline-block;
+}
+footer img {
+  height: 18px;
+}
